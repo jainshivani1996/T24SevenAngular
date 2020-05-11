@@ -6,7 +6,6 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { CustomerService } from '../customer.service';
 import { CustomerDetailsComponent } from './customer-details.component';
 import { Customer } from '../customer';
-
 import { of } from 'rxjs';
 describe('CustomerDetailsComponent', () => {
   let component: CustomerDetailsComponent;
